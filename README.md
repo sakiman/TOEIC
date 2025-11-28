@@ -24,13 +24,13 @@
 ## 現在、過去、未來（簡單式 / 進行式 / 完成式 / 完成進行式）
 
 | 時態類型<br>Tense | 現在<br>Present | 過去<br>Past | 未來<br>Future |
-|--------------------------------|-------------------------|--------------------------|------------------------------|
+|:--------------------------------:|:-------------------------:|:--------------------------:|:------------------------------:|
 | **簡單式<br>Simple** | I eat breakfast.<br>我吃早餐、我平常吃早餐 | I ate breakfast.<br>我吃了早餐 | I will eat breakfast.<br>我將會吃早餐 |
 | **進行式<br>Continuous** | I am eating breakfast.<br>我正在吃早餐 | I was eating breakfast.<br>那時我正在吃早餐 | I will be eating breakfast.<br>到時候我會正在吃早餐 |
 | **完成式<br>Perfect** | I have eaten breakfast.<br>我已吃過早餐 | I had eaten breakfast.<br>那時之前我已經吃過早餐 | I will have eaten breakfast.<br>到那時候我將會吃完早餐 |
 | **完成進行式<br>Perfect Continuous** | I have been eating breakfast.<br>我一直在吃早餐 | I had been eating breakfast.<br>那時之前持續在吃早餐 | I will have been eating breakfast.<br>到那時候我已經連續吃早餐一段時間 |
-| <div align="center"><b>文法語法</b></div>  |
-|  | <div align="center"><b>現在</b></div> | <div align="center"><b>過去</b></div> | <div align="center"><b>未來</b></div> |
+|||||
+| **文法語法** | **現在** | **過去** | **未來** |
 | **簡單式<br>Simple** | 主詞 + 原型動詞/動詞+s<br>S + V<br><br>**用於**：表示習慣、事實、日常。 | 主詞 + 過去動詞<br>S + V past tense<br><br>**用於**：對未來的預測、計畫、未來打算或決定。 | 主詞 + will + 原型動詞<br>主詞 + be 動詞 + going to<br><br>**用於**：對未來的預測、計畫、未來打算或決定。 |
 | **進行式<br>Continuous** | 主詞 + be 動詞 (is/am/are) + 動詞 ing<br>S + be V (is/am/are) + V-ing<br><br>**用於**：此刻正在發生或表示持續進行。 | 主詞 + be 動詞 (was/were) + 動詞<br>S + be V (was/were) + V-ing<br><br>**用於**：描述過去某時間正在進行的動作且持續進行。 | 主詞 + will be + 動詞 ing<br>S + will be + V-ing<br><br>**用於**：未來某個時間點正在進行的動作且持續進行。 |
 | **完成式<br>Perfect** | 主詞 + have/has + 過去分詞<br>S + have/has + p.p.<br><br>**用於**：強調「到現在的結果」。 | 主詞 + had + 過去分詞<br>S + had + p.p.<br><br>**用於**：過去的「更之前」已完成。 | 主詞 + will have + 過去分詞<br>S + will have + p.p<br><br>**用於**：預期在未來某時間前已完成。 |
