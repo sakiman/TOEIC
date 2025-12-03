@@ -268,11 +268,16 @@ tr:hover {
 }
 
 .timeline-line {
+    position: relative;
     display: flex;
     align-items: center;
     gap: 6px;
     font-size: 0.8rem;
     color: #777;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #fffbe6, #fff3e0);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.06);
 }
 
 .timeline-label {
@@ -280,10 +285,12 @@ tr:hover {
 }
 
 .timeline-segment {
+    position: relative;
     height: 4px;
     border-radius: 999px;
     background: #ffe082;
     flex: 1;
+    box-shadow: inset 0 0 0 1px rgba(255, 193, 7, 0.4);
 }
 
 .segment-past {
@@ -310,14 +317,35 @@ tr:hover {
     flex: 2;
 }
 
+.timeline-segment::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -6px;
+    height: 1px;
+    border-top: 1px dashed rgba(255, 167, 38, 0.8);
+}
+
+.timeline-segment::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -11px;
+    height: 1px;
+    border-top: 1px dashed rgba(255, 224, 130, 0.7);
+}
+
 .timeline-now {
     padding: 2px 8px;
     border-radius: 999px;
-    background: #ffca28;
+    background: linear-gradient(145deg, #ffca28, #ffb300);
     color: #5d4037;
     font-size: 0.7rem;
     font-weight: bold;
     white-space: nowrap;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.18);
 }
 
 .timeline-tags {
@@ -359,6 +387,72 @@ tr:hover {
 
 .tag-perfect-continuous {
     background: #e8f5e9;
+}
+
+/* 方式二：放大膠囊，改用長條呈現持續時間感 */
+.capsule-mode {
+    margin-top: 10px;
+}
+
+.timeline-line-past-now-future {
+    margin-bottom: 12px;
+}
+
+.timeline-capsules {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 6px;
+}
+
+.timeline-capsule {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: 0.8rem;
+    border: 1px solid #ffe082;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    position: relative;
+    overflow: hidden;
+}
+
+.timeline-capsule small {
+    font-size: 0.7rem;
+    color: #666;
+}
+
+.capsule-simple {
+    width: 32%;
+    background: linear-gradient(90deg, #fffde7, #ffe082);
+}
+
+.capsule-continuous {
+    width: 46%;
+    background: linear-gradient(90deg, #e3f2fd, #90caf9);
+}
+
+.capsule-perfect {
+    width: 60%;
+    background: linear-gradient(90deg, #f3e5f5, #ce93d8);
+}
+
+.capsule-perfect-continuous {
+    width: 78%;
+    background: linear-gradient(90deg, #e8f5e9, #a5d6a7);
+}
+
+.timeline-capsule::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 18px;
+    background: rgba(255, 255, 255, 0.4);
+    filter: blur(4px);
 }
 
 footer {
