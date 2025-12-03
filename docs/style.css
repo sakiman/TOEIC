@@ -64,6 +64,11 @@ header p {
     border: 5px solid #fff;
 }
 
+/* 縮小版插圖（約半寬） */
+.illustration-break--small img {
+    max-width: 50%;
+}
+
 /* Cards */
 .card {
     background: var(--card-bg);
@@ -461,4 +466,27 @@ footer {
         flex-wrap: wrap;
         justify-content: flex-start;
     }
+}
+
+/* Concept buttons / links */
+.concept-links {
+    margin-bottom: 16px;
+}
+
+.btn-concept {
+    display: inline-block;
+    padding: 8px 18px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #ffe082, #ffca28);
+    color: #5d4037;
+    font-size: 0.9rem;
+    text-decoration: none;
+    border: 1px solid #ffb300;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-concept:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.18);
 }
