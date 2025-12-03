@@ -317,26 +317,6 @@ tr:hover {
     flex: 2;
 }
 
-.timeline-segment::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: -6px;
-    height: 1px;
-    border-top: 1px dashed rgba(255, 167, 38, 0.8);
-}
-
-.timeline-segment::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: -11px;
-    height: 1px;
-    border-top: 1px dashed rgba(255, 224, 130, 0.7);
-}
-
 .timeline-now {
     padding: 2px 8px;
     border-radius: 999px;
